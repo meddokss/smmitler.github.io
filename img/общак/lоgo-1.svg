@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="UTF-8">
+	<base href="http://smitler-salon.com/" />
+
+	<title>404 - Документ не найден - S&amp;Mitler</title>
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="app/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="app/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="app/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="app/img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="app/css/main.min.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+<meta name="yandex-verification" content="6f41d7d3e6eb45f0" />
+<meta name="google-site-verification" content="Rmzer-pHo1_FSEc_Z1-2w-WQwzyYeapaOFI-9BAhKyI" />
+<!— Yandex.Metrika counter —>
+<script type="text/javascript">
+(function (d, w, c) {
+(w[c] = w[c] || []).push(function() {
+try {
+w.yaCounter42372729 = new Ya.Metrika({
+id:42372729,
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true,
+webvisor:true
+});
+} catch(e) { }
+});
+
+var n = d.getElementsByTagName("script")[0],
+s = d.createElement("script"),
+f = function () { n.parentNode.insertBefore(s, n); };
+s.type = "text/javascript";
+s.async = true;
+s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+if (w.opera == "[object Opera]") {
+d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42372729" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>
+</head>
+
+<body class="isnohome">
+	
+	<div class="preloader"><div class="pulse"></div></div>
+
+
+	<div id="my-page">
+
+		<div id="my-header">
+			
+			<header class="site-header">
+				
+				<div class="top-line">
+
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-lg-2 col-sm-6">
+								<a href="http://smitler-salon.com/" class="logo"><img src="app/img/logo-1.svg" alt="Салон красоты"></a>
+							</div>
+
+							<div class="col-lg-7 hidden-md hidden-sm hidden-xs">
+								<nav class="main-menu">
+									<ul class=""><li class="first"><a href="uslugi/" >Услуги</a></li><li><a href="nashi-speczialistyi/" >Наши специалисты</a></li><li><a href="novosti/" >Новости</a></li><li><a href="prajs-list.html" >Прайс-лист</a></li><li class="last"><a href="o-salone.html" >О салоне</a></li></ul>
+								</nav>
+							</div>
+
+							<div class="col-lg-3 col-sm-6 hidden-xs">
+								<div class="phone"><i class="fa fa-mobile"></i> +7 (495) 922-777-3</div>
+							</div>
+
+						</div>
+					</div>
+
+					<a href="#my-menu" class="hamburger hamburger--emphatic hidden-lg">
+						<span class="hamburger-box"><span class="hamburger-inner"></span></span>
+					</a>
+					<nav id="my-menu">
+						<ul>
+							<li class="first"><a href="uslugi/parikmaxerskij-servis.html" >Парикмахерский сервис</a></li><li><a href="uslugi/manikyurnyij-servis.html" >Ногтевой сервис</a></li><li><a href="uslugi/kosmetologicheskij-servis.html" >Косметологический сервис</a></li><li><a href="uslugi/massazh-i-spa.html" >Массаж и SPA</a></li><li class="last"><a href="uslugi/solyarij.html" >Солярий</a></li>
+							<li class="first"><a href="uslugi/" >Услуги</a></li><li><a href="nashi-speczialistyi/" >Наши специалисты</a></li><li><a href="novosti/" >Новости</a></li><li><a href="prajs-list.html" >Прайс-лист</a></li><li><a href="nashi-sertifikatyi.html" >Лицензии</a></li><li class="last"><a href="o-salone.html" >О салоне</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+
+			</header>
+
+		</div>
+
+		<div id="my-content">
+		
+			<section class="type-header inverse section-overlay">
+				<div class="container">
+					<h1>404 - Документ не найден</h1>
+				</div>
+			</section>
+
+			<section class="s-services">
+				
+				<div class="carousel-services owl-carousel">
+					
+<div class="carousel-services-item">
+						<div class="carousel-services-content">
+							<div class="carousel-service-composition">
+								<div class="carousel-logo">
+									<img src="app/img/logo-2.svg" alt="Парикмахерский сервис">
+								</div>
+								<h3>Парикмахерский сервис</h3>
+								<ul class="carousel-services-list">
+									<li>Мужская стрижка - <strong>1500 <i class="fa fa-rub"></i></strong></li><li>Женская стрижка  - <strong>2000 <i class="fa fa-rub"></i></strong></li><li>Окрашивание и тонирование - <strong>от 2100 <i class="fa fa-rub"></i></strong></li>
+								</ul>
+								<a href="uslugi/parikmaxerskij-servis.html" class="button button-white">Подробнее</a>
+							</div>
+						</div>
+						<div class="carousel-services-image" style="background-image: url(/assets/components/phpthumbof/cache/IMG_2329.353f5b86530f878c643eccc71feb08702.jpg);"></div>
+					</div>
+<div class="carousel-services-item">
+						<div class="carousel-services-content">
+							<div class="carousel-service-composition">
+								<div class="carousel-logo">
+									<img src="app/img/logo-2.svg" alt="Ногтевой сервис">
+								</div>
+								<h3>Ногтевой сервис</h3>
+								<ul class="carousel-services-list">
+									<li>Маникюр - <strong>1000 <i class="fa fa-rub"></i></strong></li><li>Педикюр - <strong>1800 <i class="fa fa-rub"></i></strong></li><li>Покрытие гель-лак  LUXIO - <strong>700 <i class="fa fa-rub"></i></strong></li>
+								</ul>
+								<a href="uslugi/manikyurnyij-servis.html" class="button button-white">Подробнее</a>
+							</div>
+						</div>
+						<div class="carousel-services-image" style="background-image: url(/assets/components/phpthumbof/cache/00099.2bc310cb858b736f7a9e3173065a2ea92.png);"></div>
+					</div>
+<div class="carousel-services-item">
+						<div class="carousel-services-content">
+							<div class="carousel-service-composition">
+								<div class="carousel-logo">
+									<img src="app/img/logo-2.svg" alt="Косметологический сервис">
+								</div>
+								<h3>Косметологический сервис</h3>
+								<ul class="carousel-services-list">
+									<li>Чистка лица - <strong>4100 <i class="fa fa-rub"></i></strong></li><li>Антивозрастная программа LYSEDIA - <strong>5500 <i class="fa fa-rub"></i></strong></li><li>Пилинг  - <strong>2900 <i class="fa fa-rub"></i></strong></li>
+								</ul>
+								<a href="uslugi/kosmetologicheskij-servis.html" class="button button-white">Подробнее</a>
+							</div>
+						</div>
+						<div class="carousel-services-image" style="background-image: url(/assets/components/phpthumbof/cache/IMG_2393.353f5b86530f878c643eccc71feb08702.jpg);"></div>
+					</div>
+<div class="carousel-services-item">
+						<div class="carousel-services-content">
+							<div class="carousel-service-composition">
+								<div class="carousel-logo">
+									<img src="app/img/logo-2.svg" alt="Массаж и SPA">
+								</div>
+								<h3>Массаж и SPA сервис</h3>
+								<ul class="carousel-services-list">
+									<li>Спина мужская - <strong>1100 <i class="fa fa-rub"></i></strong></li><li>Спина женская - <strong>1000 <i class="fa fa-rub"></i></strong></li><li>Поясничный отдел - <strong>800 <i class="fa fa-rub"></i></strong></li>
+								</ul>
+								<a href="uslugi/massazh-i-spa.html" class="button button-white">Подробнее</a>
+							</div>
+						</div>
+						<div class="carousel-services-image" style="background-image: url(/assets/components/phpthumbof/cache/IMG_2372.353f5b86530f878c643eccc71feb08702.jpg);"></div>
+					</div>
+<div class="carousel-services-item">
+						<div class="carousel-services-content">
+							<div class="carousel-service-composition">
+								<div class="carousel-logo">
+									<img src="app/img/logo-2.svg" alt="Солярий">
+								</div>
+								<h3>Солярий сервис</h3>
+								<ul class="carousel-services-list">
+									<li>Крем для загара - <strong>200 <i class="fa fa-rub"></i></strong></li><li>Минута солярия - <strong>20 <i class="fa fa-rub"></i></strong></li>
+								</ul>
+								<a href="uslugi/solyarij.html" class="button button-white">Подробнее</a>
+							</div>
+						</div>
+						<div class="carousel-services-image" style="background-image: url(/assets/components/phpthumbof/cache/bg5up2.2bc310cb858b736f7a9e3173065a2ea92.png);"></div>
+					</div>
+
+				</div>
+
+			</section>
+
+		</div>
+
+		<div id="my-footer">
+			
+			<footer class="main-footer">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-lg-2 col-sm-6">
+							<div class="footer-column">
+
+								<img class="logo-footer" src="app/img/logo-1.svg" alt="Салон красоты">
+								<p>Cалон красоты <br>бизнес-класса в Москве<br><br>ООО «Эс энд Митлер»<br>ОГРН 1157746770015</p>
+								<div class="social-footer">
+									<nav class="soc">
+										<ul>
+											<li><a href="https://vk.com/smitler" target="_blank"><i class="fa fa-vk"></i></a></li><li><a href="http://facebook.com/smitler22c1" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a href="http://instagram.com/s.mitler" target="_blank"><i class="fa fa-instagram"></i></a></li>
+										</ul>
+									</nav>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="footer-column">
+
+								<nav class="footer-menu">
+									<ul>
+										<li class="first"><a href="uslugi/parikmaxerskij-servis.html" >Парикмахерский сервис</a></li><li><a href="uslugi/manikyurnyij-servis.html" >Ногтевой сервис</a></li><li><a href="uslugi/kosmetologicheskij-servis.html" >Косметологический сервис</a></li><li><a href="uslugi/massazh-i-spa.html" >Массаж и SPA</a></li><li class="last"><a href="uslugi/solyarij.html" >Солярий</a></li>
+										<li><a href="nashi-speczialistyi/">Наши специалисты</a></li>
+									</ul>
+								</nav>
+								
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="footer-column">
+								
+								<p><i class="fa fa-location-arrow"></i> <strong>г. Москва</strong>, ул. Ивана Бабушкина, 22с1 / м. Профсоюзная.</p>
+								<p><i class="fa fa-clock-o"></i> Время работы: 10:00 - 22:00 ежедневно</p>
+								<p><span class="footer-phone"><i class="fa fa-mobile"></i> +7 (495) 922-777-3</span></p>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-sm-6">
+							<div class="footer-column">
+								
+								<div class="map">
+									<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=sqSnwqdlxYOehASwwyeusqXQ2yCYTtv_&amp;width=100%25&amp;height=200&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+
+	</div>
+		
+	<div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
+
+	<script src="app/js/scripts.min.js"></script>
+	
+	<script type="text/javascript" src="https://klientiks.ru/js/online/clientixWidget.js"></script>
+<script type="text/javascript">clientixWidget.load({baseUrl:"https://klientiks.ru",alias:"/app/SalonkrasotyiSMitler",text: "Записаться онлайн",color:"#d95c4c"})</script>
+
+</body>
+</html>
+
