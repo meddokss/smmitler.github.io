@@ -6071,11 +6071,11 @@ em.mm-counter + a.mm-next + label.mm-check + a, em.mm-counter + a.mm-next + labe
   -webkit-tap-highlight-color: transparent; }
 
 .fotorama__arr, .fotorama__fullscreen-icon, .fotorama__video-close, .fotorama__video-play {
-  background: url(fotorama.png) no-repeat; }
+  background: url() no-repeat; }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .fotorama__arr, .fotorama__fullscreen-icon, .fotorama__video-close, .fotorama__video-play {
-    background: url(fotorama@2x.png) 0 0/96px 160px no-repeat; } }
+    background: url() 0 0/96px 160px no-repeat; } }
 
 .fotorama__thumb {
   background-color: #7f7f7f;
@@ -6587,6 +6587,15 @@ section, header {
 
 section {
   background-color: #FFF; }
+  section.inverse {
+    color: #FFF;
+    background-color: #1a1a1a; }
+  section .h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #F9C869; }
+    section .h2 span {
+      color: #FFF; }
 
 html.mm-opened {
   overflow-y: scroll; }
@@ -6743,11 +6752,8 @@ html.mm-opened {
   color: #F9C869; }
 
 .header-flex {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
@@ -6874,7 +6880,7 @@ html.mm-opened {
 .carousel-services {
   background-color: #1a1a1a; }
   .carousel-services-item {
-    color: #fff;
+    color: #FFF;
     font-size: 18px;
     font-weight: 300;
     position: relative;
@@ -6934,7 +6940,7 @@ html.mm-opened {
         border-bottom: none; }
       .carousel-services-list li strong {
         font-family: "firasans-ex", sans-serif, sans-serif;
-        color: #4a4a4a; }
+        color: #4A4A4A; }
       .carousel-services-list li .fa {
         font-size: 14px; }
   .carousel-services .owl-nav {
@@ -6959,6 +6965,59 @@ html.mm-opened {
   -webkit-backface-visibility: inherit;
           backface-visibility: inherit; }
 
+.s-king, .s-review, .s-partners {
+  padding: 5% 0; }
+
+.s-king p {
+  margin: 30px 0; }
+
+.section-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3d3c3c;
+  opacity: .92; }
+
+.fotorama {
+  background-color: rgba(26, 26, 26, 0.5); }
+
+.fotorama__nav-wrap {
+  position: absolute;
+  bottom: 15px;
+  padding: 0 30px;
+  width: 100%; }
+
+.fotorama__thumb {
+  border: 4px #FFF solid;
+  -webkit-transition: border-color .5s ease;
+  transition: border-color .5s ease; }
+  .fotorama__thumb img {
+    width: 110px; }
+  .fotorama__thumb-border {
+    border-color: rgba(26, 26, 26, 0.1); }
+
+.fotorama__nav:after, .fotorama__stage:after, .fotorama__nav:before, .fotorama__stage:before {
+  display: none; }
+
+.fotorama__arr--next::before, .fotorama__arr--prev::before {
+  font-family: fontawesome, sans-serif;
+  font-size: 32px; }
+
+.fotorama__arr--next::before {
+  content: '\f105';
+  line-height: 32px; }
+
+.fotorama__arr--prev::before {
+  content: '\f104';
+  line-height: 32px;
+  margin-left: 20px; }
+
+.fotorama__active .fotorama__thumb {
+  border-color: rgba(26, 26, 26, 0.9); }
+
 /* ===================== CONTENT END=======================*/
 /*====================== MEDIA =============================================================*/
 /*==========  Desktop First  ==========*/
@@ -6975,7 +7034,9 @@ html.mm-opened {
     -webkit-flex-direction: column-reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; }
-  /* ==== HEADER END======*/ }
+  /* ==== HEADER END======*/
+  /* ==== CONTENT======*/
+  /* ==== CONTENT END ======*/ }
 
 @media only screen and (max-width: 1100px) {
   .carousel-services-item {
@@ -6992,7 +7053,11 @@ html.mm-opened {
     font-size: 48px; }
   .header-contacts .phone-h {
     text-align: left; }
-  /* ==== HEADER END======*/ }
+  /* ==== HEADER END======*/
+  .s-king p {
+    font-size: 14px; }
+  .s-king .h2 {
+    font-size: 26px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -7021,6 +7086,10 @@ html.mm-opened {
     display: block;
     text-align: center;
     margin: 0 40% 0 auto; }
+  .carousel-services-composition .h3 {
+    font-size: 22px; }
+  .s-king .h2 {
+    font-size: 24px; }
   /* ==== HEADER END======*/ }
 
 /* Custom, iPhone Retina */
