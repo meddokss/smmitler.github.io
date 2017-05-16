@@ -8,7 +8,7 @@
 	<title>SM&Mitler</title>
 	<meta name="description" content="">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><div class="sorax"></div><div></div>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<meta property="og:image" content="path/to/image.jpg">
@@ -37,6 +37,9 @@
 
 <body>
 <div class="ishome">
+	<div class="preloader">
+		<div class="pulse"></div>
+	</div>
 	<div id="my-page">
 		<div id="my-header">
 			<header class="site-header" style="background-image: url(img/top-bg.jpg);">
@@ -44,9 +47,7 @@
 				<div class="top-line">
 					<a href="#" class="logo"><img src="img/logo-1.svg" alt="Салон красоты Смитлер"></a>
 					<div class="phone hidden-xs"><i class="fa fa-mobile"></i>+7(495) 561-65-16</div>
-					<a href="#my-menu" class="hamburger hamburger--emphatic">
-						<span class="hamburger-box"><span class="hamburger-inner"></span></span>
-					</a>
+
 					<nav id="my-menu">
 						<ul>
 							<li><a href="#">Парикмахерский сервис</a></li>
@@ -180,16 +181,20 @@
 
 				</div>
 			</section>
-			<section class="s-king inverse section-overlay" style="background-image: url(img/bg-s-king.jpg)" >
+			<section class="s-king inverse section-overlay" style="background-image: url(img/bg-s-king.jpg)">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-md-5">
 							<div class="h2">Королевский салон</div>
-							<p><strong>S&Mitler</strong> ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aperiam at corporis cumque deleniti expedita, ipsam molestias nesciunt nobis nostrum quod reprehenderit ut voluptas?</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam asperiores aut expedita laudantium obcaecati tempore voluptate? Consequuntur in, voluptas.</p>
+							<p><strong>S&Mitler</strong> ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aperiam at
+								corporis cumque deleniti expedita, ipsam molestias nesciunt nobis nostrum quod reprehenderit ut
+								voluptas?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam asperiores aut expedita
+								laudantium obcaecati tempore voluptate? Consequuntur in, voluptas.</p>
 						</div>
 						<div class="col-xs-12 col-md-7">
-							<div class="section-gallery fotorama" data-nav = "thumbs" data-thumbmargin="10" data-thumbwidth="110.5" data-thumbheight="66" data-thumbborderwidth="4">
+							<div class="section-gallery fotorama" data-nav="thumbs" data-thumbmargin="10" data-thumbwidth="110.5"
+								data-thumbheight="66" data-thumbborderwidth="4">
 								<img src="img/foto/1.jpg">
 								<img src="img/foto/2.jpg">
 								<img src="img/foto/3.jpg">
@@ -205,6 +210,41 @@
 					</div>
 				</div>
 
+			</section>
+			<section class="s-call inverse" style="background-image: url(img/madam.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
+							<form>
+								<div class="callback">
+									<div class="success"><span>Спасибо за заявку!</span></div>
+									<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="SMITLER">
+									<input type="hidden" name="admin_email" value="rvolyanskiy@gmail.com">
+									<input type="hidden" name="form_subject" value="Заявка с сайта SMITLER">
+									<input type="hidden" name="Страница" value="">
+									<!-- END Hidden Required Fields -->
+									<div class="callback-logo">
+										<img src="img/logo-2.svg" alt="Смитлер">
+									</div>
+									<div class="formhead h2">Оставить заявку</div>
+									<p>Lorem ipsum dolor sit amet, elit. Aspernatur, quos?</p>
+									<input type="text" name="Имя" placeholder="Ваше имя..." required>
+									<input type="text" name="Телефон" placeholder="+38 (098) 555-55-55" required>
+									<select name="Услуга">
+										<option value disabled selected>Выберите услугу ...</option>
+										<option>Парикмахерский сервис</option>
+										<option>Косметологический сервис</option>
+										<option>Маникюрный сервис</option>
+										<option>Массаж и SPA</option>
+										<option>Солярий</option>
+									</select>
+									<button class="button button-white">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 		<div id="my-footer">
